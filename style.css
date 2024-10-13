@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    height:100vh;
+    width:100vw;
+}
+.home-container{
+    display: grid;
+    height:100vh;
+    width:100vw;
+    grid-template-rows: repeat(3,1fr);
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+
+
+h2{
+    margin-right: 15vw;
+    font-size: 35px;
+    white-space: nowrap;
+}
+
+.header{
+    height: 7vh;
+    background-color: aqua;
+    grid-area: 1,1,4,2,;
+}
+.title{
+    height: 43vh;
+    background-color: rgb(89, 92, 165);
+    grid-area: 1,1,4,3,;
+
+}
+
+.directory{
+    display: flex;
+    height:50vh;
+    background-color: yellow;
+    flex-direction: column;
+}
+
+.digital{
+    height:17vh;
+    background-color: blue;
+}
+.electronics{
+    height:16vh;
+    background-color: rgb(22, 96, 28);
+}
+.fineArts{
+    height:17vh;
+    background-color: rgb(66, 66, 149);
+}
+
+.dir-hover:hover{
+    background-color: white;
+}
+
+.centered{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* directory animation */
+.move-animation1, .move-animation2 {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    align-items: center;
+}
+
+.move-animation1 h2, .move-animation2 h2 {
+    margin-right: 9vw;
+    display: inline-block;
+}
+
+
+#page-container{
+    display:flex;
+    height:auto;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(87, 143, 193);
+    flex-direction: column;
+    height: 100vh;
+}
+
+.fullDirLayout{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height:15vh;
+    background-color: rgb(82, 171, 171);
+   
+    align-content: space-around;
+    justify-content: center;
+    
+}
+
+.imageSize{
+    height: 13vh;
+    width:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.backBtn{
+    background-color: bisque;
+    display: flex;
+    position: fixed;
+    width: 7vw;
+    height: 5vh;
+
+    margin: 2vw;
+    border-radius: 3px;
+}
+
+.backHover:hover{
+    background-color: aliceblue;
+}
+
