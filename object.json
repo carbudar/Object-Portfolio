@@ -1,0 +1,143 @@
+{
+    "RockPaperScissors": {
+      "title": "Rock Paper Scissor",
+      "year": 2023,
+      "description": "This rock paper scissor generator will generate a hand sign randomly with a mouse-click as a trigger.",
+      "documentation": [
+        { "type": "photo1", "url": "https://cdn.glitch.global/00e87335-c81d-4f26-8520-859d4689dbc0/Screenshot%202024-10-09%20at%2013.12.37.png?v=1728493961373" },
+        { "type": "photo2", "url": "https://cdn.glitch.global/00e87335-c81d-4f26-8520-859d4689dbc0/cc%20assignment%202%20sketch.png?v=1695391157451" }
+      ],
+      "medium": {
+        "isDigital": true,
+        "isFineArts": false,
+        "isElectronics": false
+      }
+    },
+    "PERSPECTIVES": {
+      "title": "PERSPECTIVES",
+      "year": 2024,
+      "description": "With this website, I wanted to explore the perspectives of a viewpoint...",
+      "documentation": [
+        { "type": "photo1", "url": "https://cdn.glitch.global/00e87335-c81d-4f26-8520-859d4689dbc0/Sketch.jpeg?v=1709293710093" },
+        { "type": "photo2", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/web2%202.jpeg" }
+      ],
+      "medium": {
+        "isDigital": true,
+        "isFineArts": false,
+        "isElectronics": false
+      }
+    },
+    "DesertedStateOfMind": {
+      "title": "Deserted State of Mind",
+      "year": 2024,
+      "description": "This webpage displays a collection of graphics visualizing the struggles of insomnia...",
+      "documentation": [
+        { "type": "photo1", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/web1%201.png" },
+        { "type": "photo2", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/web1%204.png" }
+      ],
+      "medium": {
+        "isDigital": true,
+        "isFineArts": false,
+        "isElectronics": false
+      }
+    },
+    "today": {
+      "title": "today",
+      "year": 2024,
+      "description": "This webpage helps users log emotions, sleep schedules, and other behavioral patterns...",
+      "documentation": [
+        { "type": "photo1", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/web3%201.jpeg" },
+        { "type": "photo2", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/web3%201.jpeg" }
+      ],
+      "medium": {
+        "isDigital": true,
+        "isFineArts": false,
+        "isElectronics": false
+      }
+    },
+    "Sunrise": {
+      "title": "Sunrise",
+      "year": 2023,
+      "description": "Exploring the relationship between nature and technology...",
+      "documentation": [
+        { "type": "photo1", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/Untitled%2090%202.11.56%20AM.png" },
+        { "type": "photo2", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/Screenshot%202024-04-29%20at%2004.21.58.png" }
+      ],
+      "medium": {
+        "isDigital": false,
+        "isFineArts": true,
+        "isElectronics": true
+      }
+    },
+    "NodAndSmile": {
+      "title": "Nod and Smile",
+      "year": 2023,
+      "description": "An existing solar-powered kinetic toy is transformed into a light-triggered interactive toy.",
+      "documentation": [
+        { "type": "photo1", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/cat%20rebuilt.jpeg" },
+        { "type": "photo2", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/cat%20back.jpeg" }
+      ],
+      "medium": {
+        "isDigital": true,
+        "isFineArts": false,
+        "isElectronics": true
+      }
+    },
+    "LightHouse": {
+      "title": "Light House",
+      "year": 2023,
+      "description": "A modular design inspired by origami, functioning as a table with a lighting component.",
+      "documentation": [
+        { "type": "photo1", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/table%202.jpg" },
+        { "type": "photo2", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/table1.jpg" }
+      ],
+      "medium": {
+        "isDigital": false,
+        "isFineArts": true,
+        "isElectronics": true
+      }
+    },
+    "EternaLight": {
+      "title": "EternaLight",
+      "year": 2023,
+      "description": "A sustainable lamp designed to last a lifetime.",
+      "documentation": [
+        { "type": "photo1", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/2.jpg" },
+        { "type": "photo2", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/eternalight3.png" }
+      ],
+      "medium": {
+        "isDigital": false,
+        "isFineArts": true,
+        "isElectronics": true
+      }
+    },
+    "DataPortrait": {
+      "title": "Data Portrait",
+      "year": 2023,
+      "description": "A data-self portrait created by tracking personal habits over a week.",
+      "documentation": [
+        { "type": "photo1", "url": "https://cdn.glitch.global/00e87335-c81d-4f26-8520-859d4689dbc0/Screenshot%202023-10-20%20at%208.08.42%20PM.png?v=1697846926244" },
+        { "type": "photo2", "url": "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/data%20track.png" }
+      ],
+      "medium": {
+        "isDigital": true,
+        "isFineArts": false,
+        "isElectronics": false
+      }
+    },
+    "TimeKeeper": {
+      "title": "Time Keeper",
+      "year": 2023,
+      "description": "A clock that visualizes the psychological experience of time.",
+      "documentation": [
+        { "type": "photo1", "url": "https://cdn.glitch.global/00e87335-c81d-4f26-8520-859d4689dbc0/Screenshot%202024-10-09%20at%2013.35.11.png?v=1728495315595" },
+        { "type": "photo2", "url": "https://cdn.glitch.global/00e87335-c81d-4f26-8520-859d4689dbc0/Screenshot%202024-10-09%20at%2013.35.39.png?v=1728495345117" }
+      ],
+      "medium": {
+        "isDigital": true,
+        "isFineArts": false,
+        "isElectronics": false
+      }
+    }
+  }
+  
