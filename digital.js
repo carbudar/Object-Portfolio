@@ -234,6 +234,7 @@ const divsInContainer = document.querySelectorAll('#page-container div');
 divsInContainer.forEach(div => {
     div.classList.add('fullDirLayout');
     div.classList.add('dir-hover');
+    div.classList.add('borderStyle')
 });
 
 

@@ -1,8 +1,12 @@
+
 body{
     margin:0;
     width:100vw;
-    background-color: antiquewhite;
     overflow-x: hidden;
+    color: rgb(126, 7, 23);
+    font-family: nicholas, sans-serif;
+font-style: normal;
+font-weight: 400;
 }
 
 .home-container{
@@ -10,8 +14,11 @@ body{
     height:100vh;
     width:100vw;
     grid-template-rows: repeat(3,1fr);
-    background-color: antiquewhite;
     overflow-x: hidden;
+    background-color: rgb(170, 205, 242);
+}
+h1{
+    font-weight: 700;
 }
 
 
@@ -22,39 +29,57 @@ h2{
 }
 
 .header{
+    display: flex;
     height: 7vh;
-    background-color: aqua;
+    max-width: 100vw;
+    background-color: rgb(126, 7, 23);
     grid-area: 1,1,4,2,;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    box-sizing: border-box;
+    color: rgb(255, 249, 158);
+
 }
+
 .title{
     height: 43vh;
-    background-color: rgb(89, 92, 165);
-    grid-area: 1,1,4,3,;
-
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
 }
-
+.title:hover{
+    color:rgb(255, 249, 158);
+}
 .directory{
     display: flex;
     height:50vh;
-    background-color: yellow;
     flex-direction: column;
+    color: aliceblue
+}
+
+.digital:hover,
+.electronics:hover,
+.fineArts:hover{
+    color: rgb(126, 7, 23);
 }
 
 .digital{
     height:17vh;
-    background-color: blue;
+    border-top: 2px solid rgb(126, 7, 23);
 }
+
 .electronics{
     height:16vh;
-    background-color: rgb(22, 96, 28);
+    border-top: 2px solid rgb(126, 7, 23);
 }
 .fineArts{
     height:17vh;
-    background-color: rgb(66, 66, 149);
-}
-
-.dir-hover:hover{
-    background-color: white;
+    border-top: 2px solid rgb(126, 7, 23);
 }
 
 .centered{
@@ -79,14 +104,14 @@ h2{
     display: inline-block;
 }
 
-
 #page-container{
     display:flex;
     height:105vh;
     align-content: center;
     justify-content: center;
-    background-color: rgb(87, 143, 193);
     flex-direction: column;
+    background-color: rgb(170, 205, 242);
+    color: aliceblue;
     
 }
 
@@ -95,7 +120,6 @@ h2{
     flex-direction: row;
     width: 100vw;
     height:15vh;
-    background-color: rgb(82, 171, 171);
    
     align-content: space-around;
     justify-content: center;
@@ -110,49 +134,72 @@ h2{
 }
 
 .backBtn{
-    background-color: bisque;
+    background-color: rgb(82, 11, 20);
     display: flex;
     position: fixed;
     width: 7vw;
     height: 5vh;
+    color: aliceblue;
 
     margin: 2vw;
     border-radius: 3px;
 }
 
 .backHover:hover{
-    background-color: aliceblue;
-}
-
-.newDiv{
-    height:80;
-    background-color: bisque;
-    width: 100vw;
-
+    background-color: rgb(255, 249, 158);
+    color:  rgb(82, 11, 20);;
 }
 
 
-.button{
-    background-color: aqua;
-    height:10vh;
-    width:8vw;
+.dir-hover:hover{
+    background-color: rgb(255, 249, 158);
+    color: rgb(126, 7, 23);
 }
 
 #content-container{
     display:flex;
-    background-color: rgb(200, 255, 174);
     height: 100vh;
     width:100vw;
     box-sizing: border-box;
     overflow: hidden;
     padding: 5vh;
+    background-color:  rgb(170, 205, 242);;
 }
 
+#content-container h2,
+#content-container h3{
+    color: rgb(255, 249, 158);
+}
+
+#content-container p{
+    color: rgb(126, 7, 23);
+}
+
+.project2-PERSPECTIVES,
+.project3-DesertedStateOfMind,
+.project4-today,
+.project5-NodAndSmile,
+.project6-DataPortrait,
+.project7-TimeKeeper,
+.project1-LightHouse,
+.project2-EternaLight,
+.project3-NodAndSmile,
+.project4-Sunrise,
+.project1-Sunrise,
+.project2-LightHouse,
+.project3-EternaLight{
+    border-top: 1.5px solid rgb(126, 7, 23);
+}
+
+.project4-Sunrise,
+.project3-EternaLight{
+    border-bottom: 1.5px solid rgb(126, 7, 23);
+}
 .left-container{
     margin:1vw;
     padding:1vw;
     width:60vw;
-    border: 1px solid black
+    border: 1px solid white;
 
 }
 .right-container {
@@ -161,15 +208,15 @@ h2{
     justify-content: space-around;
     margin: 1vw;
     padding: 1vw;
-    border: 1px solid black;
+    border: 1px solid white;
     width:40vw;
 }
 
 .imageSizeContent {
-    max-width: 100%;            /* Make sure the image doesn't exceed its container */
-    max-height: 200px;          /* Set a max height to control the image size */
-    width: auto;                /* Maintain aspect ratio */
-    height: 40vh;               /* Maintain aspect ratio */
-    object-fit: contain;        /* Ensure the entire image fits inside the container */
-    display: block;             /* Make sure the images behave like block elements */
+    max-width: 100%;         
+    max-height: 200px;        
+    width: auto;               
+    height: 40vh;               
+    object-fit: contain;      
+    display: block;            
 }
