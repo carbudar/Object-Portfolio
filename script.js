@@ -25,6 +25,24 @@ electronic.addEventListener('click',() => {
 })
 
 
+const title = document.querySelector('.title');
+const originalContent = title.innerHTML; // original text in html
+const newText = document.createElement('h1');
+newText.innerHTML = "Hi, Welcome";
+
+let isDefaultText = true; // make boolean statement
+title.addEventListener('mouseenter', () => {
+    if (isDefaultText) {
+        title.innerHTML = ''; // if true, clear content
+        title.appendChild(newText); // keep original content
+    } else {
+        title.innerHTML = originalContent; // change back to original content
+    }
+    isDefaultText = !isDefaultText; // Toggle state
+});
+
+
+
 // left marquee animaton function
 function startAnimation1(container) {
     let position = 0;
