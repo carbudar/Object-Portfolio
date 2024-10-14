@@ -30,7 +30,7 @@ document.querySelector('.project3-image').setAttribute ('src',projectData.Eterna
 //---
 const p1Click = document.querySelector('.project1-Sunrise')
 p1Click.addEventListener('click',() =>{
-    document.location.href = 'Sunrise.html'
+    document.location.href = 'sunrise.html'
 })
 
 const p2Click = document.querySelector('.project2-LightHouse')

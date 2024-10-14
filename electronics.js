@@ -129,5 +129,5 @@ p3Click.addEventListener('click',() =>{
 
 const p4Click = document.querySelector('.project4-Sunrise')
 p4Click.addEventListener('click',() =>{
-    document.location.href = 'Sunrise.html'
+    document.location.href = 'sunrise.html'
 })
