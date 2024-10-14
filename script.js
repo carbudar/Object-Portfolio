@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded',() =>{
+    const button = document.querySelector('.backBtn');  // Select the button
+
+    // Add click event listener
+    button.addEventListener('click', () => {
+        history.back();
+
+    });
+})
+
 const digital = document.querySelector('.digital')
 digital.addEventListener('click',() => {
     document.location.href = 'digital.html'

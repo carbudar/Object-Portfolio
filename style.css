@@ -155,19 +155,21 @@ h2{
     border: 1px solid black
 
 }
-
-.right-container{
-    margin:1vw;
-    padding:1vw;
-    align-items: center;
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 1vw;
+    padding: 1vw;
+    border: 1px solid black;
     width:40vw;
-    border: 1px solid black
 }
 
 .imageSizeContent {
-    display: flex;                /* Enable flexbox */
-    justify-content: center;      /* Center horizontally */
-    align-items: center;          /* Center vertically */
-    height: 40vh;                 /* Set a height of 40% of the viewport */
-    overflow: hidden;             /* Ensure content stays within bounds */
+    max-width: 100%;            /* Make sure the image doesn't exceed its container */
+    max-height: 200px;          /* Set a max height to control the image size */
+    width: auto;                /* Maintain aspect ratio */
+    height: 40vh;               /* Maintain aspect ratio */
+    object-fit: contain;        /* Ensure the entire image fits inside the container */
+    display: block;             /* Make sure the images behave like block elements */
 }

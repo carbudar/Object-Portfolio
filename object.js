@@ -55,7 +55,7 @@ const projectData = {
         year: 2024,
         description: "This webpage should help users log their emotions, sleeping schedule, and other behavioral patterns, almost like a diary. These logs should also be stored locally and be available to use for review.",
         documentation: [
-            { type: "photo1", url: "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/web3%201.jpeg" },
+            { type: "photo1", url: "https://cdn.glitch.global/00e87335-c81d-4f26-8520-859d4689dbc0/Screenshot%202024-04-04%20at%2015.59.31.png?v=1712261015793" },
             { type: "photo2", url: "https://carbudar.github.io/Portfolio-2024/Port%20illustrations/web3%201.jpeg" }
         ],
         medium: {

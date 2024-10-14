@@ -25,3 +25,20 @@ document.querySelector('.project2-image').setAttribute ('src',projectData.LightH
 document.querySelector('.project3-title').innerHTML = projectData.EternaLight.showInfo(); 
 
 document.querySelector('.project3-image').setAttribute ('src',projectData.EternaLight.documentation[1].url)
+
+
+//---
+const p1Click = document.querySelector('.project1-Sunrise')
+p1Click.addEventListener('click',() =>{
+    document.location.href = 'Sunrise.html'
+})
+
+const p2Click = document.querySelector('.project2-LightHouse')
+p2Click.addEventListener('click',() =>{
+    document.location.href = 'LightHouse.html'
+})
+
+const p3Click = document.querySelector('.project3-EternaLight')
+p3Click.addEventListener('click',() =>{
+    document.location.href = 'EternaLight.html'
+})
